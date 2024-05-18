@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  background-color: rgb(163, 73, 163);
+  /* border: 1px dotted rgb(255, 0, 30); */
+  margin: 0 auto;
+
+  justify-content: center;
+
+}
+
+.language {
+/* border-style: none; */
+
+
+}
+.register {
+  display: flex;
+  margin: 50px auto;
+  /* margin-bottom: 5px; */
+  border: 1px line red;
+  background-color: rgb(240, 239, 239);
+  width: 380px;
+  
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  padding: 1px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+.language {
+  display: flex;
+  margin-top: 20px;
+
+  /* justify-content: center; */
+
+  /* border: 1px dashed green; */
+}
+
+.logo {
+  margin-top: 20px;
+  /* border: 2px dashed lightseagreen; */
+ width: 50%;
+ height: 20%;
+}
+
+.userName{
+
+}
+
+.password {
+  margin-top: 20px;
+}
+.submitForLog {
+  margin-top: 20px;
+  /* border: 0; */
+  line-height: 40px;
+  width: 85%;
+  padding: 0 30px;
+  font-size: 25px;
+  text-align: center;
+
+  /* text-shadow: 1px 1px 1px #000; */
+  border-radius: 5px;
+  background-color: rgb(56, 151, 241);
+  margin-bottom: 8px;
+  /* border: 6px solid transparent; */
+  
+}
+p {
+  display: inline;
+}
+.LogHelp{
+ 
+  /* width: 80%; */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight:900;
+  font-size: smaller;
+  
+}
+.submitForLogFacebook {
+  margin-top: 20px;
+  border: 0;
+  line-height: 40px;
+  width: 85%;
+  padding: 0 30px;
+  font-size: 25px;
+  text-align: center;
+
+  /* text-shadow: 1px 1px 1px #000; */
+  border-radius: 5px;
+  background-color: rgb(56, 151, 241);
+  margin-bottom: 20px;
+  /* z-index:; */
+  /* backface-visibility:inherit; */
+}
+input {
+  border: 0.1px solid rgb(219, 213, 213);
+  border-radius: 2px;
+  box-shadow: 1px 1px rgb(182, 181, 181);
+  height: 20px;
+}
+
+select{
+    border: 1px solid rgb(239, 227, 227);
+   
+}
+p{
+  font-size: smaller;
+}
+i{
+color:rgb(246, 248, 251);
+}
+
+button{
+  background-color:rgb(56, 151, 241) ;
+}
